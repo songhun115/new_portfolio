@@ -38,6 +38,7 @@
   
   }
   @media (max-width: 960px) {
+    .project_content_wrap{width: 55%;}
     .intro_list {
       display: flex;
       flex-direction: column;
@@ -149,7 +150,7 @@
     .logo_box{width: 100%;}
   }
   @media screen and (max-width: 960px){
-    .content_name{bottom:20px; left: 55%; }
+    .content_name{bottom:20px; left: 50%; }
     .content_title{
         position: absolute;
         top: 10px;

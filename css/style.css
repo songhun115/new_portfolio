@@ -36,6 +36,7 @@ header{display: flex;position: fixed;top: 0;  width: 100%;  transition: 0.3s;ali
 
 /* Work Start*/
 #section05 {
+  background: url(../images/bg.jpg);
   margin: auto;
   max-width: 100%;
 }
@@ -131,11 +132,12 @@ header{display: flex;position: fixed;top: 0;  width: 100%;  transition: 0.3s;ali
 .project__description > h3 {
   opacity: 1;
   font-weight: bold;
-  color: #6F6F6F;
+  color: #fff;
   font-size: 1.3rem;
+  
 }
 .project__description > span {
-  color: #6F6F6F;
+  color: #f6f6f6;
 }
 .project__description > h3:after {
   content: "";
@@ -172,6 +174,7 @@ header{display: flex;position: fixed;top: 0;  width: 100%;  transition: 0.3s;ali
 }
 
 .skew-button span {
+  color: #fff;
   font-size: 16px;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
@@ -330,7 +333,7 @@ header{display: flex;position: fixed;top: 0;  width: 100%;  transition: 0.3s;ali
 .about_wrap{width: 100%; padding: 50px 150px; position: relative;}
 .about_content{display: flex; margin-top: 50px;}
 .about_left_box{width: 40%;}
-.about_left_box_img{ background: url(../images/left_bg.jpg) no-repeat center center/cover; height: 450px;}
+.about_left_box_img{ background: url(../images/about_me.jpg) no-repeat center center/cover; height: 450px;}
 .about_right_box{width: 60%;}
 .skill_box{padding: 0  0 0 50px; display: flex;
   flex-direction: column;
@@ -400,7 +403,8 @@ p{color: #6f6f6f;}
    
 .section02{height: 100vh;}
 
-.project_content_wrap{    position: absolute;
+.project_content_wrap{
+      position: absolute;
   position: absolute;
   top: 79px;
   left: 60px;
@@ -423,9 +427,10 @@ p{color: #6f6f6f;}
   width: 45%;
   min-width: 250px;
   box-shadow: 30px 40px 40px rgb(0 0 0 / 60%);
-  background-image:url("https://ejungle.co.kr/LocalUser/jungleseoul/WPPP_seoul_02/Sonhyesu/portfolio/img/bg-ediya.png") ;
+  
 }
-
+.content_img1{background-image:url("https://ejungle.co.kr/LocalUser/jungleseoul/WPPP_seoul_02/Sonhyesu/portfolio/img/bg-ediya.png") ;}
+.content_img2{background-image:url("../images/slide_img_02.jpg") ;}
 .content_detail{
   position: absolute;
   bottom: 100px;
@@ -489,7 +494,7 @@ p{color: #6f6f6f;}
 .content_name,
 .content_detail_notice{color:#fff;}
 
-.skill_bar{width:100%; height:30px;background: #F1F1F1;}
+.skill_bar{width:100%; height:30px;background-color: darkgray;  }
 .skill_bar span{position: absolute; right: 10px;    top: 50%;transform: translateY(-50%); color: #000;}
 .right_box_item{margin-bottom: 15px;}
 .right_box_item:last-child{margin: 0;}
