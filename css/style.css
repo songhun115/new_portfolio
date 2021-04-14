@@ -11,7 +11,7 @@ header{display: flex;position: fixed;top: 0;  width: 100%;  transition: 0.3s;ali
 .nav_item.on {color:red}
 
 #header.active .nav_item{padding: 10px 40px;}
-#header.active {background-color: rgba(0, 0, 0, 0.8);}
+#header.active {background-color: rgba(0, 0, 0, 0.9);}
 .mb_nav_btn{position: relative; width: 22px; height: 22px; cursor: pointer; display: none; }
 .mb_nav_btn span {position: absolute; left: 0; width: 100%; height: 4px; background-color: #6F6F6F; border-radius: 4px; transition: 0.3s;}
 .mb_nav_btn span:nth-child(1){top: 0;}
@@ -526,3 +526,31 @@ p{color: #6f6f6f;}
 
 
 .section5{height: 100vh;}
+.main_visuare_title{
+width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main_visuare_title_bg{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0,0,0,0.5);
+    width: 300px;
+    height: 300px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border: 2px solid white;
+}
+.main_visuare_title_text{
+  text-align: center;
+font-size: 60px;
+    font-weight: 700;
+    color: white;
+    z-index: 5;
+  }
+  .main_visuare_title_text p {
+    font-size: 22px;
+    color: white;
+  }
