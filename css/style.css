@@ -52,7 +52,7 @@ header{display: flex;position: fixed;top: 0;  width: 100%;  transition: 0.3s;ali
 
 .work_categories {
   max-width: 1400px;
-  margin: 0 auto 60px auto;
+  margin: 0 auto 40px auto;
 }
 
 .category__btn {
@@ -75,7 +75,7 @@ header{display: flex;position: fixed;top: 0;  width: 100%;  transition: 0.3s;ali
 .project_wrap_title {
   font-family: "Rajdhani", sans-serif;
   font-size: 3em;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   font-weight: 400;
 }
 .work__projects {
@@ -279,7 +279,7 @@ header{display: flex;position: fixed;top: 0;  width: 100%;  transition: 0.3s;ali
 
 .section {
   width: 100vw;
-  height: 100%;
+
 }
 
 
@@ -431,6 +431,8 @@ p{color: #6f6f6f;}
 }
 .content_img1{background-image:url("https://ejungle.co.kr/LocalUser/jungleseoul/WPPP_seoul_02/Sonhyesu/portfolio/img/bg-ediya.png") ;}
 .content_img2{background-image:url("../images/slide_img_02.jpg") ;}
+.content_img3{background-image:url("../images/slide_img_03.jpg") ;}
+.content_img3{}
 .content_detail{
   position: absolute;
   bottom: 100px;
@@ -474,7 +476,7 @@ p{color: #6f6f6f;}
 .intro_item_bg2{background: url(../images/main_banner_bg_02.jpg) no-repeat center center/cover;}
 .intro_item_bg3{background: url(../images/main_banner_bg_03.jpg) no-repeat center center/cover;}
 .intro_item_bg4{background: url(../images/main_banner_bg_04.jpg) no-repeat center center/cover;}
-
+.intro_item:hover{background-color: rgba(0,0,0,0.4);}
 .intro_item:hover .intro_item_bg{opacity: 1;}
 .intro_item:hover h3,
 .intro_item:hover p,
@@ -510,3 +512,14 @@ p{color: #6f6f6f;}
   
 
 .title_area h1{font-size:42px}
+.view_btn{white-space: wrap; display: block;}
+.show_btn{display:inline-block; width: 49%; text-align: center; border: 1px solid white; padding: 10px; cursor: pointer;}
+.btn_top,
+.btn_bottom{width: 100%; margin-top: 10px;}
+.show_btn:hover{background-color: black; color: white;}
+.content_title_name1{color:#0d3369;}
+.content_title_name2{color:#b92939;}
+.content_title_name3{color:#ad9c7a;}
+
+
+.section5{height: 100vh;}

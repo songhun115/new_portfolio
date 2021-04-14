@@ -38,6 +38,7 @@
   
   }
   @media (max-width: 960px) {
+    .section5{height: 100%;}
     .project_content_wrap{width: 55%;}
     .intro_list {
       display: flex;
@@ -229,7 +230,7 @@
   
     .project_wrap_title {
       font-size: 2.5rem;
-      margin-bottom: 30px;
+      margin-bottom: 10px;
     }
     .content_box{margin-top: 0;}
   }
