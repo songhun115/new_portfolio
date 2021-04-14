@@ -297,7 +297,10 @@ header{display: flex;position: fixed;top: 0;  width: 100%;  transition: 0.3s;ali
   color: #63e6be;
   text-align: left;
 }
-
+.footer{
+  margin-top: 50px;
+  background-color: rgba(0,0,0,0.2);
+}
 .footer_item {
   font-size: 22px;
   color: #777;
