@@ -516,7 +516,8 @@ p{color: #6f6f6f;}
 
 .title_area h1{font-size:42px}
 .view_btn{white-space: wrap; display: block;}
-.show_btn{display:inline-block; width: 49%; text-align: center; border: 1px solid white; padding: 10px; cursor: pointer;}
+.show_btn{display:inline-block; width: 49%; text-align: center; border: 1px solid white;  cursor: pointer;}
+.show_btn a {padding: 10px; display: block;}
 .btn_top,
 .btn_bottom{width: 100%; margin-top: 10px;}
 .show_btn:hover{background-color: black; color: white;}
