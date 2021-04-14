@@ -40,7 +40,11 @@ $(document).ready(function() {
   
 
       $(".nav_list li").click(function () {
-        var scrollPosition = $($(this).attr("data-target")).offset().top ;
+        var scrollPosition = $($(this).attr("data-target")).offset().top;
+        window.scrollTo({top:scrollPosition, behavior:'smooth'});
+      })
+      $(".nav_item2").click(function () {
+        var scrollPosition = $($(this).attr("data-target")).offset().top -50;
         window.scrollTo({top:scrollPosition, behavior:'smooth'});
       })
 
